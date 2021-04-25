@@ -6,3 +6,5 @@ A boa dica desta vez será um fluxo de monitoramento de falhas de gateways (Gate
 A ideia é utilizar algumas API, meio que perdidas no “limbo”, para checar o status (online ou offline) de gateways numa determinada região e, melhor ainda, alertar por meio do envio de mensagem pelo Telegram quando houver alguma alteração de status.
 
 Bem, se faz necessário saber mexer um pouco com o Node-RED, descobrir o ID dos gateways alvos de interesse e configurar apropriadamente o Node Telegram. Importe o código (gw-management.json) e faça as adaptações necessárias para sua rede.
+
+![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela_gw-management.jpg)
