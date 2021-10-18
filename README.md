@@ -35,6 +35,6 @@ Houve na TTN uma significativa mudança, eu diria não só de versão da *_stack
 ## Outra possibilidade
 Agora, caso deseje uma solução mais profissional - com o requinte de um *_dashboard_* - não deixe de visitar o seguinte [LINK](https://github.com/JohanScheepers/TTN_Gateway_Node).
 
-Olha que belezura!
+Olha que belezura! E já testei ... FUNCIONA!
 
 ![TTN Gateway Radius and New Node](https://www.thethingsnetwork.org/forum/uploads/default/original/3X/f/b/fb37473479b621cf7092e58ed1209e8338f325c6.jpeg)
