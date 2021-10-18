@@ -27,6 +27,9 @@ Houve na TTN uma significativa mudança, eu diria não só de versão da *_stack
 >This replaces two existing APIs: the https://www.thethingsnetwork.org/gateway-data/ endpoint and the NOC (part of V2). The former now uses the Packet Broker Mapper API as data source, so applications using the old API now receive up-to-date information (including our very own www.thethingsnetwork.org gateway map as we work on a redesign of the homepage). Please update your API clients to consume the new API, as we will be shutting down the /gateway-data endpoint by the end of 2021. The NOC is already gone.
 
 ...
+👷‍♂️
+...
+
 ***
 <a id="ancora3"></a>
 ## Outra possibilidade
