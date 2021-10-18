@@ -25,3 +25,8 @@ Houve na TTN uma significativa mudança, eu diria não só de versão da *_stack
 >This replaces two existing APIs: the https://www.thethingsnetwork.org/gateway-data/ endpoint and the NOC (part of V2). The former now uses the Packet Broker Mapper API as data source, so applications using the old API now receive up-to-date information (including our very own www.thethingsnetwork.org gateway map as we work on a redesign of the homepage). Please update your API clients to consume the new API, as we will be shutting down the /gateway-data endpoint by the end of 2021. The NOC is already gone.
 
 ...
+***
+## Outra possibilidade
+Agora, caso deseje uma solução mais profissional, com o requinte de um *_dashboard_* não deixe de visitar o seguinte [LINK](https://github.com/JohanScheepers/TTN_Gateway_Node).
+Olha que belezura!
+![TTN Gateway Radius and New Node](https://www.thethingsnetwork.org/forum/uploads/default/original/3X/f/b/fb37473479b621cf7092e58ed1209e8338f325c6.jpeg)
