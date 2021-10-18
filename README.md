@@ -2,7 +2,7 @@
 Explorando APIs e nodes TTN
 
 ***
-## Antiga Versão (caso já conheco o contexto, salte para segunda versão)
+## Antiga Versão - v0 (caso já conheça o contexto, salte para Nova Versão)
 
 A boa dica desta vez será um fluxo para monitorar falhas de gateways (Gateway Management). Na verdade, nada foi inventado, pois este trabalho foi inspirado e adaptado da comunidade TTN de Barcelona (https://tinkerman.cat/post/monitor-your-ttn-gateways-with-node-red). 
 
@@ -13,7 +13,7 @@ Bem, faz-se necessário saber mexer um pouco com o Node-RED, descobrir o ID dos 
 ![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela_gw-management.jpg)
 
 ***
-## Nova Versão
+## Nova Versão (v1)
 Bene, bene, bene ... o mundo sempre girando! 
 
 Houve na TTN uma significativa mudança, eu diria não só de versão da *_stack_* do servidor de rede LoRaWAN mas também conceitual sob vários aspectos. Uma destas mudanças impacta as API correlatas ao status dos gateways. Eis um trecho retirado da fala do próprio [Johan Stokking](https://www.thethingsnetwork.org/forum/t/new-api-for-gateway-mapping-status-and-info/49778): 
