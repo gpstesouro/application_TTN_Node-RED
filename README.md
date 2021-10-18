@@ -2,7 +2,7 @@
 Explorando APIs e nodes TTN
 
 ***
-## Antiga Versão - v0 (caso já conheça o contexto, salte para Nova Versão)
+## Antiga Versão - v0 (caso já conheça o contexto, sugiro saltar para Nova Versão)
 
 A boa dica desta vez será um fluxo para monitorar falhas de gateways (Gateway Management). Na verdade, nada foi inventado, pois este trabalho foi inspirado e adaptado da comunidade TTN de Barcelona (https://tinkerman.cat/post/monitor-your-ttn-gateways-with-node-red). 
 
