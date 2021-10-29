@@ -44,7 +44,7 @@ Exemplos:
 <a id="ancora3"></a>
 ## Outras possibilidades
 
-1. [Mapa de Gateways](https://www.thethingsnetwork.org/map) Oficial da TTN, já via Packet Brocker.
+1. [Mapa de Gateways](https://www.thethingsnetwork.org/map) Oficial da TTN, já via Packet Brocker. Vale a pena observar o conglomerado de gatewyas na Europa.
 2. Agora, caso deseje uma solução personificada e profissional - com o requinte de um *_dashboard_* - não deixe de visitar o seguinte [LINK](https://github.com/JohanScheepers/TTN_Gateway_Node). Olha que belezura! E já testei ... FUNCIONA!
 
 ![TTN Gateway Radius and New Node](https://www.thethingsnetwork.org/forum/uploads/default/original/3X/f/b/fb37473479b621cf7092e58ed1209e8338f325c6.jpeg)
