@@ -30,9 +30,9 @@ Houve na TTN uma significativa mudança, eu diria não só de versão da *_stack
 Pois então, a ideia é recuperar a aplicação acima (gerenciamento dos GW regionais) utilizando-se da nova API disponibilizada. 
 
 Exemplos: 
-- (i) todos os gateways num raio de 50 Km de Caxias do Sul: [https://mapper.packetbroker.net/api/v2/gateways?distanceWithin%5Blatitude%5D=-29.167778&distanceWithin%5Blongitude%5D=-51.178889&distanceWithin%5Bdistance%5D=50000&netID=000013&tenantID=ttn](https://mapper.packetbroker.net/api/v2/gateways?distanceWithin%5Blatitude%5D=-29.167778&distanceWithin%5Blongitude%5D=-51.178889&distanceWithin%5Bdistance%5D=50000&netID=000013&tenantID=ttn); 
-- (ii) todos os gateways - globais - online e conectados a TTN V2 (rede em obsolescência): [https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2](https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2); e 
-- (iii) consulta as características de um gateway individual "id=gw-gpstesouro": [https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro](https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro).
+- todos os gateways num raio de 50 Km de Caxias do Sul: [https://mapper.packetbroker.net/api/v2/gateways?distanceWithin%5Blatitude%5D=-29.167778&distanceWithin%5Blongitude%5D=-51.178889&distanceWithin%5Bdistance%5D=50000&netID=000013&tenantID=ttn](https://mapper.packetbroker.net/api/v2/gateways?distanceWithin%5Blatitude%5D=-29.167778&distanceWithin%5Blongitude%5D=-51.178889&distanceWithin%5Bdistance%5D=50000&netID=000013&tenantID=ttn); 
+- todos os gateways - globais - online e conectados a TTN V2 (rede em obsolescência): [https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2](https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2); e 
+- consulta as características de um gateway individual "id=gw-gpstesouro": [https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro](https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro).
 
 > The Things Network uses NetID 000013 and tenant ID ttn (V3) and ttnv2 (V2).
 
