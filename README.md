@@ -36,7 +36,7 @@ Exemplos:
 
 > __Observações: (i)__ TTN utiliza NetID 000013 e tenantID (locatário): ttn (V3) and ttnv2 (V2); __(ii)__ tenha paciência ao aguardar as atualizações: o status "offline" demora uns 10 minutos e "online" 1 minuto para ser reportado; __(iii)__ rxRate e txRate é uma taxa média de tráfego nos últimos 6 minutos.
 
-![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela_gw-management_v1.jpg)
+![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela-gw_management_v1.jpg)
 
 😊 Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. 😊
 
