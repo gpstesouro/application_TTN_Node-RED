@@ -34,7 +34,7 @@ Exemplos:
 - todos os gateways - globais - online e conectados a TTN V2 (rede em obsolescência): [https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2](https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2); e 
 - consulta as características de um gateway individual "id=gw-gpstesouro": [https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro](https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro).
 
-> The Things Network uses NetID 000013 and tenant ID ttn (V3) and ttnv2 (V2).
+> __Observações:__ (i) TTN utiliza NetID 000013 e tenantID (locatário): ttn (V3) and ttnv2 (V2); (ii) tenha paciência ao aguardar as atualizações: o status "offline" demora uns 10 minutos e "online" 1 minuto para ser reportado; (iii) rxRate e txRate é uma taxa média de tráfego nos últimos 6 minutos.
 
 ...
 👷‍♂️
