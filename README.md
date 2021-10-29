@@ -1,6 +1,6 @@
 <a name="ancora"></a>
 # application_TTN_Node-RED
-Explorando APIs e gateways TTN
+Explorando APIs e monitorando gateways TTN
 ***
 <a id="ancora1"></a>
 ## Antiga Versão - v0 (caso já conheça o contexto, sugiro saltar para [Nova Versão](#ancora2))
@@ -9,7 +9,7 @@ A boa dica desta vez será um fluxo para monitorar falhas de gateways (Gateway M
 
 A ideia se baseia em utilizar algumas APIs, meio que perdidas no “limbo”, para checar o status (on-line ou off-line) dos gateways numa determinada região e, melhor ainda, ser alertado por meio do envio de mensagem - aplicativo Telegram - quando houver alguma alteração de status.
 
-Bem, faz-se necessário saber mexer um pouco com o Node-RED, descobrir o ID dos gateways-alvos de interesse e configurar apropriadamente o Node "telegram sender". Simplesmente, importe o código [gw-management.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management.json) para o seu Node-RED e faça as adaptações necessárias para sua rede, checando cada etapa do fluxo com o Node "debug".
+Bem, faz-se necessário saber lidar um pouco com o Node-RED, descobrir o ID dos gateways-alvos de interesse e configurar apropriadamente o Node "telegram sender". Simplesmente, importe o código [gw-management.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management.json) para o seu Node-RED e faça as adaptações necessárias para sua rede, checando cada etapa do fluxo com o Node "debug".
 
 ![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela_gw-management.jpg)
 
