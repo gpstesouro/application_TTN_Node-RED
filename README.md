@@ -1,6 +1,6 @@
 <a name="ancora"></a>
 # application_TTN_Node-RED
-Explorando APIs e nodes TTN
+Explorando APIs e gateways TTN
 ***
 <a id="ancora1"></a>
 ## Antiga Versão - v0 (caso já conheça o contexto, sugiro saltar para [Nova Versão](#ancora2))
