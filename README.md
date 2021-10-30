@@ -34,7 +34,7 @@ Exemplos de emprego da API:
 - todos os gateways - globais - online e conectados a TTN V2 (rede em obsolescência): [https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2](https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2); e 
 - consulta as características de um gateway individual "id=gw-gpstesouro": [https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro](https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro).
 
-> __Observações: (i)__ TTN utiliza NetID 000013 e tenantID (locatário): ttn (V3) and ttnv2 (V2); __(ii)__ tenha paciência ao aguardar as atualizações: o status "offline" demora uns 10 minutos e "online" 1 minuto para ser reportado; e __(iii)__ rxRate e txRate é uma taxa média de tráfego nos últimos 6 minutos.
+> __Observações: (i)__ TTN utiliza NetID 000013 e tenantID (locatário): ttn (V3) and ttnv2 (V2); __(ii)__ tenha paciência ao aguardar as atualizações: o status "offline" demora uns 10 minutos e "online" 1 minuto para ser reportado pela API; e __(iii)__ rxRate e txRate é uma taxa média de tráfego nos últimos 6 minutos.
 
 ![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela-gw_management-v1.jpg?raw=true)
 
