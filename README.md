@@ -27,7 +27,7 @@ Houve na TTN uma significativa mudança, eu diria não só de versão da *_stack
 >This replaces two existing APIs: the [https://www.thethingsnetwork.org/gateway-data](https://www.thethingsnetwork.org/gateway-data/country/br) endpoint and the NOC (part of V2). The former now uses the Packet Broker Mapper API as data source, so applications using the old API now receive up-to-date information (including our very own www.thethingsnetwork.org gateway map as we work on a redesign of the homepage). Please update your API clients to consume the new API, as we will be shutting down the "/gateway-data" endpoint by the end of 2021. The NOC is already gone.
 
 
-Pois então, a ideia é recuperar a aplicação acima (gerenciamento dos GW regionais) utilizando-se da nova API (Packet Broker Mapper) disponibilizada. 
+Pois então, a ideia é recuperar a aplicação antiga (gerenciamento dos GW regionais) utilizando-se da nova API (Packet Broker Mapper) disponibilizada. 
 
 Exemplos de emprego da API: 
 - todos os gateways num raio de 50 Km de Caxias do Sul - RS: [https://mapper.packetbroker.net/api/v2/gateways?distanceWithin[latitude]=-29.167778&distanceWithin[longitude]=-51.178889&distanceWithin[distance]=50000&netID=000013&tenantID=ttn](https://mapper.packetbroker.net/api/v2/gateways?distanceWithin%5Blatitude%5D=-29.167778&distanceWithin%5Blongitude%5D=-51.178889&distanceWithin%5Bdistance%5D=50000&netID=000013&tenantID=ttn); 
