@@ -44,7 +44,7 @@ Exemplos de emprego da API:
 <a id="ancora3"></a>
 ## Outras possibilidades
 
-1. [Mapa de Gateways](https://www.thethingsnetwork.org/map) Oficial da TTN, já via Packet Brocker. Vale a pena observar no mapa a aglomeração de gateways na Europa.
+1. [Mapa de Gateways](https://www.thethingsnetwork.org/map) oficial da TTN, já via Packet Brocker. Vale a pena observar no mapa a aglomeração de gateways na Europa.
 2. Agora, caso deseje uma solução personalizada e profissional - com o requinte de um *_dashboard_* - não deixe de visitar o seguinte [LINK](https://github.com/JohanScheepers/TTN_Gateway_Node). Olha que belezura! E já testei ... FUNCIONA!
 
 ![TTN Gateway Radius and New Node](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/monitor-gw_caxiasdosul.jpg?raw=true)
