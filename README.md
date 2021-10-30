@@ -38,7 +38,7 @@ Exemplos de emprego da API:
 
 ![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela-gw_management-v1.jpg?raw=true)
 
-😊 Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. Ao ser alterado o status (online ou offline) de um dos gateways monitorados, uma mensagem será disparada por intermédio do aplicativo Telegram. 😊
+😊 Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. Sistemática de funcionamento: ao ser alterado o status (online ou offline) de algum dos gateways monitorados, dispara-se uma mensagem por intermédio do aplicativo Telegram. 😊
 
 ***
 <a id="ancora3"></a>
