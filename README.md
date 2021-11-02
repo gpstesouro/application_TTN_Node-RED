@@ -20,7 +20,7 @@ Bene, bene, bene ... o mundo sempre girando!
 
 Houve na TTN uma significativa mudança, eu diria não só de versão da *_stack_* do servidor de rede LoRaWAN mas também conceitual sob vários aspectos. Uma destas mudanças impactou as antigas API correlatas ao status dos gateways, que foram utilizadas na descrição acima. Eis um trecho retirado da fala do próprio [Johan Stokking](https://www.thethingsnetwork.org/forum/t/new-api-for-gateway-mapping-status-and-info/49778): 
 
->I’m happy to announce that we have a new API for fetching gateway locations, online status and other info for The Things Stack Community Edition, Cloud, Open Source and Enterprise: **Packet Broker Mapper**. Since we wanted to make gateway information available in one place, we built a new service for this in Packet Broker. With Packet Broker being the backbone for LoRaWAN traffic, making gateway information available in a central place allows for better insight in the entire ecosystem and discovery of (private) networks to exchange traffic with.
+>I’m happy to announce that we have a new API for fetching gateway locations, online status and other info for The Things Stack Community Edition, Cloud, Open Source and Enterprise: **Packet Broker Mapper API**. Since we wanted to make gateway information available in one place, we built a new service for this in Packet Broker. With Packet Broker being the backbone for LoRaWAN traffic, making gateway information available in a central place allows for better insight in the entire ecosystem and discovery of (private) networks to exchange traffic with.
 >
 >Backwards compatibility
 >
