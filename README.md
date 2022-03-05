@@ -1,11 +1,11 @@
 <a name="ancora"></a>
 # application_TTN_Node-RED
-Explorando APIs e monitorando gateways TTN
+Explorando APIs e monitorando gateways TTN (The Thing Network)
 ***
 <a id="ancora1"></a>
 ## Antiga Versão - v0 (caso já conheça o contexto, sugiro saltar para [Nova Versão](#ancora2))
 
-A boa dica desta vez será um fluxo para monitorar falhas de gateways (Gateway Management). Na verdade, nada foi inventado, pois este trabalho foi inspirado e adaptado da comunidade TTN de Barcelona (https://tinkerman.cat/post/monitor-your-ttn-gateways-with-node-red). 
+A boa dica desta vez será um fluxo para monitorar falhas de gateways (Gateway Management). Na verdade, nada foi inventado, pois este trabalho foi inspirado e adaptado da comunidade TTN de Barcelona (https://tinkerman.cat/post/monitor-your-ttn-gateways-with-node-red).  Mas afinal, o que é TTN? Por favor, [veja](https://www.thethingsnetwork.org/).
 
 A ideia se baseia em utilizar algumas APIs, meio que perdidas no “limbo”, para checar o status (online ou offline) dos gateways numa determinada região e, melhor ainda, ser alertado por meio do envio de mensagem - aplicativo Telegram - quando houver alguma alteração de status.
 
