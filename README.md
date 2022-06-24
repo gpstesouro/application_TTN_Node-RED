@@ -36,7 +36,7 @@ Exemplos de emprego da API:
 
 > __Observações: (i)__ TTN utiliza `netID` 000013 e `tenantID` (locatário): ttn (V3) and ttnv2 (V2); __(ii)__ como novidade, `rxRate` e `txRate` são taxas médias de tráfego dos últimos 6 minutos e, também, a timestamp `updatedAt`; __(iii)__ tenha paciência em aguardar as atualizações: o status `online`=false (offline), `rxRate` e `txRate` podem demorar um pouco mais de 10 minutos e `online`=true leva cerca de 1 minuto para ser reportado pela API;  e __(iv)__ ainda estou pensando nisto (talvez a futura v1.1), parece viável implementar um indicativo de SLA (Acordo de Nível de Serviço) por gateway.
 
-![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela-gw_management-v1.jpg?raw=true)
+![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela_gw-management-v1.jpg?raw=true)
 
 Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. 
 
