@@ -38,7 +38,9 @@ Exemplos de emprego da API:
 
 ![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela-gw_management-v1.jpg?raw=true)
 
-😊 Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. Sistemática de funcionamento: ao ser alterado o status (online ou offline) de algum dos gateways monitorados, dispara-se uma mensagem por intermédio do aplicativo Telegram. 😊
+Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. Sistemática de funcionamento: ao ser alterado o status (online ou offline) de algum dos gateways monitorados, dispara-se uma mensagem por intermédio do aplicativo Telegram.
+
+😊 GOSTOU DA IDEIA? Pois então, junte-se ao grupo [TTN_Gatewys_CXS](https://t.me/ttn_gateways_cxs) no Telegram e seja notificado a cada mudança de estado dos gateways LoRaWAN que integram a rede TTN em Caxias do Sul. 😊
 
 ***
 <a id="ancora3"></a>
