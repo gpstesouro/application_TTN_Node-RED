@@ -34,13 +34,15 @@ Exemplos de emprego da API:
 - todos os gateways - globais - online e conectados a TTN V2 (rede em obsolescência): [https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2](https://mapper.packetbroker.net/api/v2/gateways?online=true&netID=000013&tenantID=ttnv2); e 
 - consulta as características de um gateway individual "`id`=gw-gpstesouro": [https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro](https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=gw-gpstesouro).
 
-> __Observações: (i)__ TTN utiliza `netID` 000013 e `tenantID` (locatário): ttn (V3) and ttnv2 (V2); __(ii)__ como novidade, `rxRate` e `txRate` são taxas médias de tráfego dos últimos 6 minutos e, também, a timestamp `updatedAt`; __(iii)__ tenha paciência em aguardar as atualizações: o status `online`=false (offline), `rxRate` e `txRate` podem demorar uns 10 minutos e `online`=true leva cerca de 1 minuto para ser reportado pela API;  e __(iv)__ ainda estou pensando nisto (talvez a futura v1.1), parece viável implementar um indicativo de SLA (Acordo de Nível de Serviço) por gateway.
+> __Observações: (i)__ TTN utiliza `netID` 000013 e `tenantID` (locatário): ttn (V3) and ttnv2 (V2); __(ii)__ como novidade, `rxRate` e `txRate` são taxas médias de tráfego dos últimos 6 minutos e, também, a timestamp `updatedAt`; __(iii)__ tenha paciência em aguardar as atualizações: o status `online`=false (offline), `rxRate` e `txRate` podem demorar um pouco mais de 10 minutos e `online`=true leva cerca de 1 minuto para ser reportado pela API;  e __(iv)__ ainda estou pensando nisto (talvez a futura v1.1), parece viável implementar um indicativo de SLA (Acordo de Nível de Serviço) por gateway.
 
 ![tela Node-RED](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/tela-gw_management-v1.jpg?raw=true)
 
-Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. Sistemática de funcionamento: ao ser alterado o status (online ou offline) de algum dos gateways monitorados, dispara-se uma mensagem por intermédio do aplicativo Telegram.
+Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. 
 
-😊 GOSTOU DA IDEIA? Pois então, junte-se ao grupo [TTN_Gateways_CXS](https://t.me/ttn_gateways_cxs) no Telegram e seja notificado a cada mudança de estado dos gateways LoRaWAN que integram a rede TTN em Caxias do Sul - RS. Ahhh ... não estressa não, há uma latência de 11 minutos para a rede acusar o "offline" do GW. já a informação de "online" é reportada mais rápido (1 min).  😊
+- Sistemática de funcionamento: ao ser alterado o status (online ou offline) de algum dos gateways monitorados, dispara-se uma mensagem por intermédio do aplicativo Telegram, comunicando todos os integrantes de um grupo.
+
+😊 GOSTOU DA IDEIA? Pois então, junte-se ao grupo [TTN_Gateways_CXS](https://t.me/ttn_gateways_cxs) no Telegram e seja notificado a cada mudança de estado dos gateways LoRaWAN que integram a rede TTN em Caxias do Sul - RS. Ahhh ... não estressa não, há uma latência de 11 minutos para a rede acusar o "offline" de um GW. já a informação de "online" é reportada mais rápido (1 min).  😊
 
 ***
 <a id="ancora3"></a>
