@@ -42,7 +42,7 @@ Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mari
 
 - Sistemática de funcionamento: ao ser alterado o status (online ou offline) de algum dos gateways monitorados, dispara-se uma mensagem por intermédio do aplicativo Telegram, comunicando todos os integrantes de um grupo.
 
-😊 GOSTOU DA IDEIA? Pois então, junte-se ao grupo [TTN_Gateways_CXS](https://t.me/ttn_gateways_cxs) no Telegram e seja notificado a cada mudança de estado dos gateways LoRaWAN que integram a rede TTN em Caxias do Sul - RS. Ahhh ... não estressa não, há uma latência de 11 minutos para a rede acusar o "offline" de um GW. já a informação de "online" é reportada mais rápido (1 min).  😊
+😊 GOSTOU DA IDEIA? Pois então, junte-se ao grupo [TTN_Gateways_CXS](https://t.me/ttn_gateways_cxs) no Telegram e seja notificado a cada mudança de estado dos gateways LoRaWAN que integram a rede TTN em Caxias do Sul - RS. Ahhh ... não estressa não, há uma latência de 11 minutos para a rede acusar o "offline" de um GW. já a informação de "online" é reportada mais rápido (1 min).  Poucas mensagens, a princípio, quer dizer que a rede está estabilizada (funcionando a contento).😊
 
 ***
 <a id="ancora3"></a>
