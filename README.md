@@ -7,7 +7,7 @@ Explorando APIs e monitorando gateways TTN (The Thing Network)
 
 A boa dica desta vez será um fluxo para monitorar falhas de gateways (Gateway Management). Na verdade, nada foi inventado, pois este trabalho foi inspirado e adaptado da comunidade TTN de Barcelona (https://tinkerman.cat/post/monitor-your-ttn-gateways-with-node-red).  Mas afinal, o que é TTN? Por favor, acesse o [link](https://www.thethingsnetwork.org/).
 
-Mas em uma linha: **TTN é um rede voltada para IoT que emprega a tecnologia LoRa&LoRaWAN para atender aos quesitos de conectividade e _low power_**.
+Mas em uma linha: **TTN é um rede voltada para IoT que emprega a tecnologia LoRa&LoRaWAN para atender aos quesitos de conectividade à longa distância (5 km variável) e _low power_**.
 
 A ideia se baseia em utilizar algumas APIs, meio que perdidas no “limbo”, para checar o _status_ (_online_ ou _offline_) dos gateways numa determinada região e, melhor ainda, ser alertado por meio do envio de mensagem - aplicativo Telegram - quando houver alguma alteração de _status_.
 
