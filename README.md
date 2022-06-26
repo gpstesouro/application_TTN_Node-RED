@@ -40,9 +40,9 @@ Exemplos de emprego da API:
 
 Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/gw-management-v1.json) a ser importado para o Node-RED. 
 
-- Sistemática de funcionamento: ao ser alterado o status (online ou offline) de algum dos gateways monitorados, dispara-se uma mensagem por intermédio do aplicativo Telegram, comunicando todos os integrantes de um grupo.
+- Sistemática de funcionamento: um robô por intermédio de API verifica constantemente o status (online ou offline) de alguns dos gateways elencados para serem monitorados, havendo alteração dispara uma mensagem utilizando o aplicativo Telegram, comunicando a todos os integrantes de um grupo.
 
-😊 GOSTOU DA IDEIA? Pois então, junte-se ao grupo [TTN_Gateways_CXS](https://t.me/ttn_gateways_cxs) no Telegram e seja notificado a cada mudança de estado dos gateways LoRaWAN que integram a rede TTN em Caxias do Sul - RS. Ahhh ... não estressa não, há uma latência de 11 minutos para a rede acusar o "offline" de um GW. já a informação de "online" é reportada mais rápido (1 min).  Poucas mensagens emitidas pelo robô, a princípio, quer dizer que a rede está estabilizada (funcionando a contento).😊
+😊 GOSTOU DA IDEIA? Pois então, junte-se ao grupo [TTN_Gateways_CXS](https://t.me/ttn_gateways_cxs) no Telegram e seja notificado a cada mudança de estado dos gateways LoRaWAN que integram a rede TTN em Caxias do Sul - RS. Ahhh ... não estressa não, há uma latência de 11 minutos para a rede acusar o "offline" de um GW. já a informação de "online" é reportada mais rápido (1 min).  Poucas mensagens emitidas pelo robô, "a princípio", quer dizer que a rede está estabilizada (funcionando a contento).😊
 
 ***
 <a id="ancora3"></a>
