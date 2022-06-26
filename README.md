@@ -48,9 +48,10 @@ Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mari
 
 ***
 <a id="ancora3"></a>
-## Outras possibilidades
+## Outras possibilidades de verificar a rede TTN:
 
-1. [Mapa de Gateways](https://www.thethingsnetwork.org/map) oficial da TTN, já via _Packet Brocker Mapper_. Vale a pena observar no mapa a aglomeração de gateways na Europa.
-2. Agora, caso deseje uma solução personalizada e interessante - com o requinte de um *_dashboard_* - não deixe de visitar o seguinte [link](https://github.com/JohanScheepers/TTN_Gateway_Node). Olha que belezura! E já testei ... **FUNCIONA BEM!**
+1. Modo básico e que todos conhecem: [TTN Community](https://www.thethingsnetwork.org/community/caxias-do-sul/); 
+2. [Mapa de Gateways](https://www.thethingsnetwork.org/map) oficial da TTN, já via _Packet Brocker Mapper_. Vale a pena observar no mapa a aglomeração de gateways na Europa; e
+3. Agora, caso deseje uma solução personalizada e interessante - com o requinte de um *_dashboard_* - não deixe de visitar o seguinte [link](https://github.com/JohanScheepers/TTN_Gateway_Node). Olha que belezura! E já testei ... **FUNCIONA BEM!**
 
 ![TTN Gateway Radius and New Node](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/monitor-gw_caxiasdosul.jpg?raw=true)
