@@ -48,7 +48,7 @@ Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mari
 
 ***
 <a id="ancora3"></a>
-## Outras possibilidades de verificar a rede TTN:
+## Outras possibilidades para verificar a rede TTN:
 
 1. Modo básico e que todos conhecem: [TTN Community](https://www.thethingsnetwork.org/community/caxias-do-sul/); 
 2. [Mapa de Gateways](https://www.thethingsnetwork.org/map) oficial da TTN, já via _Packet Brocker Mapper_. Vale a pena observar no mapa a aglomeração de gateways na Europa; e
