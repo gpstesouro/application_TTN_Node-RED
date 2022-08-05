@@ -56,3 +56,10 @@ Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mari
 3. Agora, caso deseje uma solução personalizada e beirando um _designer_ profissional - com o requinte de um *_dashboard_* - não deixe de visitar o seguinte [link](https://github.com/JohanScheepers/TTN_Gateway_Node). Olha que belezura! E já testei ... **FUNCIONA BEM!**
 
 ![TTN Gateway Radius and New Node](https://github.com/Mario-Camara/application_TTN_Node-RED/blob/main/monitor-gw_caxiasdosul.jpg?raw=true)
+
+***
+<a id="ancora4"></a>
+## Para finalizar, um prêmio para quem leu até o final do artigo:
+
+1. Que tal fuçar no mundo Docker-Conteiner em três linhas. Você não se arrependerá! Primeiro acesse o link: [Play with Docker](https://labs.play-with-docker.com/). Você precisa se cadastrar.
+2. 
