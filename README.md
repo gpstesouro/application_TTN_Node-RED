@@ -63,5 +63,5 @@ Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mari
 
 1. Que tal fuçar no mundo Docker-Conteiner em três linhas. Você não se arrependerá! Primeiro acesse o link: [Play with Docker](https://labs.play-with-docker.com/). Você precisa se cadastrar: fazer um LOGIN (e-mail e criar uma senha). Depois START.
 2. Clique em ADD NEW INSTANCE. Agora a parte mais difícil, não tenha medo!:scream: Na linha de comando digite: __docker container run -d -p 1880:1880 gpstesouro/ttn_gateways_rs__
-3. Quase lá! Em OPEN PORT digite __1880__. Uma nova janela se apresentará. Simplesmente, feche alguns popup de aviso e voilá! Chame o dashboard do Node-Red (coloque __ui__ após a primeira barra do URL: http://.../__ui__) e divirta-se...
+3. Quase lá! Em OPEN PORT digite __1880__. Uma nova janela se apresentará. Simplesmente, feche alguns popup de aviso e voilá!:pray: Chame o dashboard do Node-Red (coloque __ui__ após a primeira barra do URL: http://.../__ui__) e divirta-se...
 
