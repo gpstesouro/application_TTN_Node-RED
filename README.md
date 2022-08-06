@@ -61,8 +61,8 @@ Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mari
 <a id="ancora4"></a>
 ## Para finalizar, um PRÊMIO para quem leu o artigo até o final:
 
-1. Que tal fuçar no mundo _Docker-Conteiner_ em três curtos parágrafos? É sério! Você não se arrependerá!:muscle: Primeiro acesse o link: [Play with Docker](https://labs.play-with-docker.com/). Você precisa se cadastrar: fazer um LOGIN (e-mail e criar uma senha). Depois START.
+1. Que tal fuçar no mundo _Docker-Conteiner_ em três curtos parágrafos? É sério! Você não se arrependerá!:muscle: Primeiro acesse o link: [Play with Docker](https://labs.play-with-docker.com/) (PWD). Você precisa se cadastrar: fazer um LOGIN (e-mail e criar uma senha). Depois START.
 2. Clique em + ADD NEW INSTANCE. Agora a parte mais difícil, não tenha medo!:scream: Na linha de comando digite:  `docker container run -d -p 1880:1880 gpstesouro/ttn_gateways_rs` \<enter\>. Espere até a tela parar de "pipocar", seu _container_ está sendo recheado de "gostosuras".
 4. Quase lá! Clique em __1880__ (ou acione OPEN PORT e digite __1880__ \<OK\>). Uma nova janela se apresentará. Simplesmente, feche algumas janelas _popup_ de aviso e voilá!:pray: Finja que não vê o Node-RED e só chame o dashboard (coloque __ui__ após a primeira barra solitária da URL: `http://ip...play-with-docker.com/ui` \<enter\>) e divirta-se... __GET__
 
-Eu não disse ... __facinho!__ :smirk: Caso você não feche tudo, seu _container_ se autodestruirá em 4 horas.
+Eu não disse ... __facinho!__ :smirk: Você acabou de utilizar o recurso __Docker__ através do site PWD, criou um __container__ - rodando um aplicativo Node-RED - que se autodestruirá após 4 horas, caso você não feche as janelas. Parabéns!
