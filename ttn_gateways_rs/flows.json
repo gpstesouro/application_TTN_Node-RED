@@ -1,0 +1,3023 @@
+[
+    {
+        "id": "5ec6e0ff.2497a",
+        "type": "tab",
+        "label": "TTN Gateway Radius",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "829a976f.0871c8",
+        "type": "ui_group",
+        "name": "Gateway within Radius",
+        "tab": "e2c0cf21.db2a3",
+        "order": 1,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "f1408aea.5db028",
+        "type": "ui_group",
+        "name": "Plot New Node",
+        "tab": "e2c0cf21.db2a3",
+        "order": 3,
+        "disp": true,
+        "width": "10",
+        "collapse": false
+    },
+    {
+        "id": "98369fc.752c86",
+        "type": "ui_group",
+        "name": "Gateway Map",
+        "tab": "e2c0cf21.db2a3",
+        "order": 4,
+        "disp": true,
+        "width": "20",
+        "collapse": false
+    },
+    {
+        "id": "258ccba7.6eda14",
+        "type": "ui_group",
+        "name": "Gateway Status Online",
+        "tab": "e2c0cf21.db2a3",
+        "order": 7,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "cb67b9a1.c42a18",
+        "type": "ui_group",
+        "name": "TTN Gateway map",
+        "tab": "6bf50ff0.5f5d2",
+        "order": 4,
+        "disp": true,
+        "width": "38",
+        "collapse": false
+    },
+    {
+        "id": "9e16ccc6.a044d",
+        "type": "ui_group",
+        "name": "Radius around Gateway",
+        "tab": "e2c0cf21.db2a3",
+        "order": 2,
+        "disp": true,
+        "width": 10,
+        "collapse": false
+    },
+    {
+        "id": "e3693505.5042c8",
+        "type": "ui_group",
+        "name": "Gateway Status Offline",
+        "tab": "e2c0cf21.db2a3",
+        "order": 6,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "714ea33c.60cedc",
+        "type": "ui_group",
+        "name": "SF Calculator",
+        "tab": "e2c0cf21.db2a3",
+        "order": 8,
+        "disp": true,
+        "width": "36",
+        "collapse": false
+    },
+    {
+        "id": "8c12a2a7.c7948",
+        "type": "ui_group",
+        "name": "Distance Node to Gateway",
+        "tab": "e2c0cf21.db2a3",
+        "order": 5,
+        "disp": true,
+        "width": "16",
+        "collapse": false
+    },
+    {
+        "id": "e2c0cf21.db2a3",
+        "type": "ui_tab",
+        "name": "The Things Gateway Radius",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6bf50ff0.5f5d2",
+        "type": "ui_tab",
+        "name": "TTN Map",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "01ab4e8732569676",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "1c2bee6a.a967b2",
+        "type": "http request",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 610,
+        "y": 560,
+        "wires": [
+            [
+                "6b55f95d.eb8c68"
+            ]
+        ]
+    },
+    {
+        "id": "d9d504cd.b73138",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "Raduis gateway",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 960,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "6b55f95d.eb8c68",
+        "type": "json",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 790,
+        "y": 560,
+        "wires": [
+            [
+                "1391b68.724634a"
+            ]
+        ]
+    },
+    {
+        "id": "1391b68.724634a",
+        "type": "split",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 930,
+        "y": 560,
+        "wires": [
+            [
+                "d9d504cd.b73138",
+                "87ede1d9.7bb48"
+            ]
+        ]
+    },
+    {
+        "id": "949039fe.654da8",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Latitude dec",
+        "tooltip": "",
+        "group": "829a976f.0871c8",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 410,
+        "y": 180,
+        "wires": [
+            [
+                "d304e0c4.bb001"
+            ]
+        ]
+    },
+    {
+        "id": "f2cda4ce.d6cb98",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Longitude dec",
+        "tooltip": "",
+        "group": "829a976f.0871c8",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "c6926aa.42d8498"
+            ]
+        ]
+    },
+    {
+        "id": "3a89f0ba.6e334",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Distance KM",
+        "tooltip": "",
+        "group": "f1408aea.5db028",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 1360,
+        "wires": [
+            [
+                "17150305.b35a5d",
+                "dcc08545.2eab78"
+            ]
+        ]
+    },
+    {
+        "id": "8bca4a87.912b68",
+        "type": "ui_button",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "group": "829a976f.0871c8",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "get",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 300,
+        "wires": [
+            [
+                "cd701c4e.3c485",
+                "1f5d4be7.3e5614"
+            ]
+        ]
+    },
+    {
+        "id": "d304e0c4.bb001",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "lat",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c6926aa.42d8498",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "lon",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "383199cf.802e86",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "nodeDist",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 1360,
+        "wires": [
+            [
+                "447dd3e9.760e2c"
+            ]
+        ]
+    },
+    {
+        "id": "e8af57ba.073698",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "func": "let  lat = flow.get('lat');\nlet lon = flow.get('lon');\nlet dist = flow.get('dist')\n\n\nmsg.url = \"https://mapper.packetbroker.net/api/v2/gateways?distanceWithin%5Blatitude%5D=\" + lat + \"&distanceWithin%5Blongitude%5D=\" + lon + \"&distanceWithin%5Bdistance%5D=\" + dist + \"&netID=000013&tenantID=ttn\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 560,
+        "wires": [
+            [
+                "1c2bee6a.a967b2"
+            ]
+        ]
+    },
+    {
+        "id": "9a850e94.9ccc1",
+        "type": "worldmap",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "none",
+        "showgrid": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmapTtn",
+        "overlist": "DR,CO,RA,DN,HM",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 2710,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "685ddc35.871a74",
+        "type": "http request",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 1250,
+        "y": 560,
+        "wires": [
+            [
+                "bc7d67c8.d61f38"
+            ]
+        ]
+    },
+    {
+        "id": "57d2f14a.bce24",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "Map point for Gaetway",
+        "func": "let id = msg.payload.id;\nlet lat = msg.payload.location.latitude;\nlet lon = msg.payload.location.longitude\nlet rxRate = msg.payload.rxRate;\nlet txRate = msg.payload.txRate;\nlet online = msg.payload.online;\nlet eui = msg.payload.eui;\n\nlat = Math.round(lat * 1000000)/1000000;\nlon = Math.round(lon * 1000000)/1000000;\n\nif (online == true) {\n    color = \"#0000ff\";\n}else{\n    color = \"#ff0000\";\n}\n\n\nmsg.payload = { \"name\":id, \"eui\":eui, \"latitude\":lat, \"longitude\":lon, \"rxRate\":rxRate, \"txRate\":txRate, \"online\":online, \"iconColor\":color, \"updatedAt\": msg.payload.updatedAt,  \"layer\": \"gateway\" }\n\n\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1680,
+        "y": 620,
+        "wires": [
+            [
+                "9a850e94.9ccc1",
+                "b4b5e116.c0f19",
+                "20ef6b47.e54e14"
+            ]
+        ]
+    },
+    {
+        "id": "b4b5e116.c0f19",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "To Map",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1880,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "dfd9e479.9d3188",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "func": "msg.payload = msg.payload * 1000;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 780,
+        "y": 1360,
+        "wires": [
+            [
+                "383199cf.802e86"
+            ]
+        ]
+    },
+    {
+        "id": "87ede1d9.7bb48",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "func": "let id = msg.payload.id;\n\n\nmsg.url = \"https://mapper.packetbroker.net/api/v2/gateways/netID=000013,tenantID=ttn,id=\" + id +\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 560,
+        "wires": [
+            [
+                "685ddc35.871a74"
+            ]
+        ]
+    },
+    {
+        "id": "bc7d67c8.d61f38",
+        "type": "json",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1390,
+        "y": 560,
+        "wires": [
+            [
+                "57d2f14a.bce24",
+                "827e07a8.a618c8",
+                "a920b574.88c2e8"
+            ]
+        ]
+    },
+    {
+        "id": "1d499cef.7b6df3",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "-29.6868",
+        "payloadType": "num",
+        "x": 240,
+        "y": 180,
+        "wires": [
+            [
+                "949039fe.654da8"
+            ]
+        ]
+    },
+    {
+        "id": "c475cccb.cf318",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "-53.8149",
+        "payloadType": "num",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "f2cda4ce.d6cb98"
+            ]
+        ]
+    },
+    {
+        "id": "75f677d6.b34b78",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "50",
+        "payloadType": "num",
+        "x": 230,
+        "y": 1360,
+        "wires": [
+            [
+                "3a89f0ba.6e334"
+            ]
+        ]
+    },
+    {
+        "id": "d8239b5.4895368",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "Get all gateways in raduis",
+        "info": "",
+        "x": 670,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "e1cb9e9c.4bf22",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "Get gateways data",
+        "info": "",
+        "x": 1190,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "ae247a85.2d32e8",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "Set Dashboard color up",
+        "info": "Also need to set under dashboard theme the following:\n\nBase theme:\nNode-RED theme-everywhere\nstyle: dark\nbase color: rgb(5 62 168)",
+        "x": 1200,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "3f3388e2.7962b8",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "Format for map",
+        "info": "",
+        "x": 1660,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "827e07a8.a618c8",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "Gateway Data",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "b3da6286.869e9",
+        "type": "ui_worldmap",
+        "z": "5ec6e0ff.2497a",
+        "group": "98369fc.752c86",
+        "order": 1,
+        "width": "20",
+        "height": 14,
+        "name": "",
+        "lat": "52.3676",
+        "lon": "4.9041",
+        "zoom": "10",
+        "layer": "Esri Topography",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "hide",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "true",
+        "coords": "none",
+        "showgrid": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmapTtn",
+        "x": 2710,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "19b1130.1c958ed",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "360",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 560,
+        "wires": [
+            [
+                "e8af57ba.073698"
+            ]
+        ]
+    },
+    {
+        "id": "15bf4f1f.129d01",
+        "type": "ui_table",
+        "z": "5ec6e0ff.2497a",
+        "group": "258ccba7.6eda14",
+        "name": "Online",
+        "order": 1,
+        "width": "16",
+        "height": "6",
+        "columns": [],
+        "outputs": 1,
+        "cts": true,
+        "x": 2410,
+        "y": 360,
+        "wires": [
+            [
+                "2363b4f2.f5916c",
+                "ed3787dd.e9c048"
+            ]
+        ]
+    },
+    {
+        "id": "6870226.4024fdc",
+        "type": "join",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "3",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 2270,
+        "y": 360,
+        "wires": [
+            [
+                "15bf4f1f.129d01"
+            ]
+        ]
+    },
+    {
+        "id": "a920b574.88c2e8",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "API - Create table",
+        "func": "let id = msg.payload.id\nlet lat = msg.payload.location.latitude\nlet lon = msg.payload.location.longitude\nlet rxRate = msg.payload.rxRate\nlet txRate = msg.payload.txRate\nlet online = msg.payload.online\nlet eui = msg.payload.eui\nlet updatedAt = msg.payload.updatedAt\n\nlat = Math.round(lat * 1000000)/1000000;\nlon = Math.round(lon * 1000000)/1000000;\n\nif (!rxRate) rxRate = 0\n\nif(typeof txRate === \"undefined\"){\n    txRate = 0\n}\n\nmsg.payload = { \"name\":id, \"eui\":eui, \"latitude\":lat, \"longitude\":lon, \"rxRate\":rxRate, \"txRate\":txRate, \"updatedAt\":updatedAt, \"online\":online}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1670,
+        "y": 380,
+        "wires": [
+            [
+                "4531865a.c320e8"
+            ]
+        ]
+    },
+    {
+        "id": "9665c6c6.127e68",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "Gateway data to table",
+        "info": "",
+        "x": 1680,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b5d9b6fc.a50248",
+        "type": "ui_template",
+        "z": "5ec6e0ff.2497a",
+        "group": "cb67b9a1.c42a18",
+        "name": "Clock & Stylesheet",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<script id=\"titleScript\" type=\"text/javascript\">\n\n$(function() {\n    if($('.md-toolbar-tools').length != 0){\n        loadClock();\n    }else setTimeout(loadClock, 500)\n});\n\nfunction loadClock(){\n    $('#clock').remove();\n    var toolbar = $('.md-toolbar-tools');\n    \n    var div = $('<div/>');\n    var p = $('<p/ id=\"clock\">');\n    \n    div.append(p);\n    div[0].style.margin = '5px 5px 5px auto';\n    toolbar.append(div);\n\n    function displayTitle(lh) {\n        p.text(lh); \n    }\n    \n    function upTime() {\n        var d = new Date();\n        p.text(d.toLocaleString());\n    }\n\n    if(document.clockInterval){ \n            clearInterval(document.clockInterval);\n            document.clockInterval = null;\n    }\n        \n    document.clockInterval = setInterval(upTime,1000);\n}\n\n</script>\n\n<style>\n/*\nIt is reasnoble to declare the colors as CSS variables\nso they can be easily called by name where needed.\n\nYou can see that in many places the variables are not used. Change it!\n*/\n\n:root {\n  --color-green-primary: rgb(51, 204, 51);\n  --color-green-secondary: rgb(26, 101, 26);\n  --color-red-primary: rgb(255, 0, 0);\n  --color-red-secondary: rgba(153,0,0,1);\n  --color-gray-primary:rgba(40,40,40,1);\n  --color-gray-secondary:rgba(65,65,65,1);\n  --color-blue-primary:rgb(45, 97, 186,);\n  --color-blue- secondary:rgba(2,0,36,1);\n  --color-text-primary: rgb(128, 128, 128);\n  //--color-text-primary: rgb(230, 226, 209);\n  --color-widget-border: rgb(84, 78, 78);\n}\n\n\n/*\nAll CSS adjustments are commented out.\nTurn rules on one by one and see the changes.\nDon't use too many elements cos it wil be confusing\nStart with simple elements like text, slider or button\n\nMany of elements like buttons have states, \nthose rules must be found and adjusted also.\n*/\n\nbody.nr-dashboard-theme {\n    background: radial-gradient(circle, rgb(45 97 186) 0%, rgb(16 16 146) 40%, rgba(2,0,36,1) 100%);\n}\n\n\n.masonry-container {\n    position: relative;\n    width: 100%;\n    height:100%;\n    margin: 0 auto;\n    background: rgb(255,0,0);\n    background: linear-gradient(180deg,  var(--color-blue-primary) 100%, var(--color-gray-secondary) 100%);\n}\n\n\n.nr-dashboard-cardcontainer {\n    position: relative;\n    box-shadow: inset 0px 1px 4px 0px #000000bb;\n    border-radius: 15px;\n}\n\n\n.nr-dashboard-theme ui-card-panel {\n    background-color:  #33333300;\n    color:var(color-blue-primary);\n    border-radius: 15px;\n    box-shadow: 0 0 8px 0px #00000080;\n}\n\n\nbody.nr-dashboard-theme md-content md-card {\n    background-color:  #33333300;\n    color: var(color-blue-primary);\n    text-shadow: 4px 2px 4px #00000045;\n    box-shadow: 0 -1px 5px 1px #00000045;\n    border-radius: 12px;\n    border: 1px solid var(--color-widget-border);\n}\n\n\n.nr-dashboard-theme ui-card-panel p.nr-dashboard-cardtitle {\n    color: var(--color-blue-primary);\n}\n\n\n.md-button {\n    display: inline-block;\n    position: relative;\n    cursor: pointer;\n    min-height: 36px;\n    min-width: 88px;\n    line-height: 36px;\n    vertical-align: middle;\n    align-items: center;\n    text-align: center;\n    border-radius: 12px;\n    box-sizing: border-box;\n    -webkit-user-select: none;\n    -moz-user-select: none;\n    -ms-user-select: none;\n    user-select: none;\n    outline: none;\n    border: 0;\n    padding: 0 6px;\n    margin: 6px 8px;\n    background: transparent;\n    color:var(--color-blue-primary);\n    white-space: nowrap;\n    text-transform: uppercase;\n    font-weight: 500;\n    font-size: 14px;\n    font-style: inherit;\n    font-variant: inherit;\n    font-family: inherit;\n    text-decoration: none;\n    overflow: hidden;\n    transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);\n}\n\n\n.nr-dashboard-theme .nr-dashboard-button .md-button {\n    background-color: #88888800;\n    color:var(--color-blue-primary);\n}\n\n\n.nr-dashboard-theme .nr-dashboard-button .md-button:hover {\n    background-color: #88888855;\n}\n\n\nmd-slider .md-thumb {\n    z-index: 1;\n    position: absolute;\n    left: -10px;\n    top: 14px;\n    width: 20px;\n    height: 20px;\n    border-radius: 20px;\n    -webkit-transform: scale(.7);\n    transform: scale(.7);\n    transition: all .4s cubic-bezier(.25,.8,.25,1);\n    box-shadow: 0 0 6px #00000070;\n}\n\n\n/*\nAdvanced stuff - dynamic change of card CSS\n\nClasses here can be used to make colored stripe at the top of card\nUsage is not in here, but they are added to md-card when needed within another template\n\n\n.carderr {\n    background: rgb(255,0,0);\n    background: linear-gradient(180deg, var(--color-red-primary) 0px, var(--color-red-secondary) 3px, rgba(80,80,80,1) 4px, rgba(45,45,45,1) 100%);\n}\n\n\n.cardok {\n    background: rgb(39,255,0);\n    background: linear-gradient(180deg, var(--color-green-primary) 0px, var(--color-green-secondary) 3px, rgba(70,70,70,1) 4px, rgba(40,40,40,1) 100%);\n}\n*/\n</style>\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "x": 1190,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "15873aa8.e0a6b5",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "Set Dashboard to get gateways - Gateway within Radius",
+        "info": "",
+        "x": 340,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "20ef6b47.e54e14",
+        "type": "join",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "mode": "auto",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 1870,
+        "y": 660,
+        "wires": [
+            [
+                "cebf01be.0c6f2"
+            ]
+        ]
+    },
+    {
+        "id": "30bdf5ca.ba7d1a",
+        "type": "worldmap in",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "path": "/worldmapTtn",
+        "events": "connect",
+        "x": 1650,
+        "y": 560,
+        "wires": [
+            [
+                "d14fb05e.c9268",
+                "cc97f8e8.a4ce28"
+            ]
+        ]
+    },
+    {
+        "id": "cebf01be.0c6f2",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "Temp store Map points and Table data",
+        "func": "flow.set(\"gateway\",msg.payload)\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2090,
+        "y": 660,
+        "wires": [
+            [
+                "e302affa.0120f"
+            ]
+        ]
+    },
+    {
+        "id": "d14fb05e.c9268",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "Click away or redeploy - Create Map points",
+        "func": "msg.payload = flow.get(\"gateway\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2110,
+        "y": 560,
+        "wires": [
+            [
+                "6ea1069.c4782f8"
+            ]
+        ]
+    },
+    {
+        "id": "e302affa.0120f",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "flow.set(\"gateway\")",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2150,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "6ea1069.c4782f8",
+        "type": "split",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 2410,
+        "y": 560,
+        "wires": [
+            [
+                "9a850e94.9ccc1",
+                "786b924a.485f3c"
+            ]
+        ]
+    },
+    {
+        "id": "786b924a.485f3c",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "Click away or redeploy - Create table",
+        "func": "let id = msg.payload.name\nlet lat = msg.payload.latitude\nlet lon = msg.payload.longitude\nlet rxRate = msg.payload.rxRate\nlet txRate = msg.payload.txRate\nlet online = msg.payload.online\nlet eui = msg.payload.eui\nlet updatedAt = msg.payload.updatedAt;\n\nif (!rxRate) rxRate = 0\n\nif(typeof txRate === \"undefined\"){\n    txRate = 0\n}\n\nmsg.payload = { \"name\":id, \"eui\":eui, \"latitude\":lat, \"longitude\":lon, \"rxRate\":rxRate, \"txRate\":txRate, \"updatedAt\":updatedAt, \"online\":online}\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1730,
+        "y": 420,
+        "wires": [
+            [
+                "4531865a.c320e8"
+            ]
+        ]
+    },
+    {
+        "id": "b30aa53.6a8f858",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "rad4",
+        "func": "let lat = msg.payload.latitude\nlet lon = msg.payload.longitude\nlet name = msg.payload.name\nrad =  flow.get(\"rad4\")\nname = rad + \"k \" + name\n\nmsg = {}\n\n\n\n\nmsg.payload =  {\n    \"name\": name,\n    \"lat\": lat,\n    \"lon\": lon,\n    \"radius\": flow.get(\"rad4\") * 1000,\n    \"layer\": \"gateway \" + rad + \"k\",\n    \"fillColor\": '#0000ff',\n    \"stroke\": false,\n    \"fillOpacity\": 0.1,\n    \"clickable\": true\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 1140,
+        "wires": [
+            [
+                "4a87724.8b12e8c"
+            ]
+        ]
+    },
+    {
+        "id": "f756d9ac.5a6918",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "rad3",
+        "func": "let lat = msg.payload.latitude\nlet lon = msg.payload.longitude\nlet name = msg.payload.name\nrad =  flow.get(\"rad3\")\nname = rad + \"k \" + name\n\nmsg = {}\n\n\n\n\nmsg.payload =  {\n    \"name\": name,\n    \"lat\": lat,\n    \"lon\": lon,\n    \"radius\": flow.get(\"rad3\") * 1000,\n    \"layer\": \"gateway \" + rad + \"k\",\n    \"fillColor\": '#0000ff',\n    \"stroke\": false,\n    \"fillOpacity\": 0.1,\n    \"clickable\": true\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 1100,
+        "wires": [
+            [
+                "4a87724.8b12e8c"
+            ]
+        ]
+    },
+    {
+        "id": "1afa5990.a9a9e6",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "rad2",
+        "func": "let lat = msg.payload.latitude\nlet lon = msg.payload.longitude\nlet name = msg.payload.name\nrad =  flow.get(\"rad2\")\nname = rad + \"k \" + name\n\nmsg = {}\n\n\n\n\nmsg.payload =  {\n    \"name\": name,\n    \"lat\": lat,\n    \"lon\": lon,\n    \"radius\": flow.get(\"rad2\") * 1000,\n    \"layer\": \"gateway \" + rad + \"k\",\n    \"fillColor\": '#0000ff',\n    \"stroke\": false,\n    \"fillOpacity\": 0.1,\n    \"clickable\": true\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 1060,
+        "wires": [
+            [
+                "4a87724.8b12e8c"
+            ]
+        ]
+    },
+    {
+        "id": "8a1e8ccf.dad5e",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "rad1",
+        "func": "let lat = msg.payload.latitude\nlet lon = msg.payload.longitude\nlet name = msg.payload.name\nrad =  flow.get(\"rad1\")\nname = rad + \"k \" + name\n\nmsg = {}\n\n\n\n\nmsg.payload =  {\n    \"name\": name,\n    \"lat\": lat,\n    \"lon\": lon,\n    \"radius\": flow.get(\"rad1\") * 1000,\n    \"layer\": \"gateway \" + rad + \"k\",\n    \"fillColor\": '#0000ff',\n    \"stroke\": false,\n    \"fillOpacity\": 0.1,\n    \"clickable\": true\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 1020,
+        "wires": [
+            [
+                "4a87724.8b12e8c",
+                "193f3364.1d555d"
+            ]
+        ]
+    },
+    {
+        "id": "d724208f.aa571",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Latitude dec",
+        "tooltip": "",
+        "group": "f1408aea.5db028",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 1520,
+        "wires": [
+            [
+                "3f9e8f69.dba97",
+                "62099f7b.c9b9b",
+                "dcc08545.2eab78"
+            ]
+        ]
+    },
+    {
+        "id": "fda43b41.3fcf18",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Longitude dec",
+        "tooltip": "",
+        "group": "f1408aea.5db028",
+        "order": 2,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 400,
+        "y": 1560,
+        "wires": [
+            [
+                "8dd4f438.89beb8",
+                "62099f7b.c9b9b",
+                "dcc08545.2eab78"
+            ]
+        ]
+    },
+    {
+        "id": "e76d619b.f370f",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "newLat",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 1520,
+        "wires": [
+            [
+                "33ff1e4b.e1d242"
+            ]
+        ]
+    },
+    {
+        "id": "73f58cd3.05c114",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "newLon",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1030,
+        "y": 1560,
+        "wires": [
+            [
+                "33ff1e4b.e1d242"
+            ]
+        ]
+    },
+    {
+        "id": "cb7a24bf.f98d18",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "-29.1748",
+        "payloadType": "num",
+        "x": 240,
+        "y": 1520,
+        "wires": [
+            [
+                "d724208f.aa571"
+            ]
+        ]
+    },
+    {
+        "id": "95aa2e5a.b60a5",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "-51.1663",
+        "payloadType": "num",
+        "x": 240,
+        "y": 1560,
+        "wires": [
+            [
+                "fda43b41.3fcf18"
+            ]
+        ]
+    },
+    {
+        "id": "33ff1e4b.e1d242",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "plot node",
+        "func": "\n\nmsg.payload = { \n                \"name\":\"New Node\",\n                \"lat\":flow.get(\"newLat\"),\n                \"lon\":flow.get(\"newLon\"),\n                \"iconColor\":'black',\n                \"layer\": \"new node\"\n                }\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 1480,
+        "wires": [
+            [
+                "efc892cc.53998"
+            ]
+        ]
+    },
+    {
+        "id": "447dd3e9.760e2c",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "nodeDist",
+        "func": "msg.payload =  {\n                \"name\":flow.get(\"nodeDist\") + \" New Node\",\n                \"lat\":flow.get(\"newLat\"),\n                \"lon\":flow.get(\"newLon\"),\n                \"radius\":flow.get(\"nodeDist\"),\n                \"layer\": \"new node\" + flow.get(\"nodeDist\"),\n                \"fillColor\": 'black',\n                \"stroke\": false,\n                \"fillOpacity\": 0.3,\n                \"clickable\": true\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 1400,
+        "wires": [
+            [
+                "efc892cc.53998"
+            ]
+        ]
+    },
+    {
+        "id": "53aabe48.fce5b",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Distance KM",
+        "tooltip": "",
+        "group": "829a976f.0871c8",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 410,
+        "y": 260,
+        "wires": [
+            [
+                "905a45ec.ff6778"
+            ]
+        ]
+    },
+    {
+        "id": "35b72845.8ae508",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "dist",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 830,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "905a45ec.ff6778",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "func": "msg.payload = msg.payload * 1000;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 260,
+        "wires": [
+            [
+                "35b72845.8ae508"
+            ]
+        ]
+    },
+    {
+        "id": "62e1078e.b590d8",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.1",
+        "topic": "",
+        "payload": "270",
+        "payloadType": "num",
+        "x": 230,
+        "y": 260,
+        "wires": [
+            [
+                "53aabe48.fce5b"
+            ]
+        ]
+    },
+    {
+        "id": "b2f9585e.e1cf78",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "New Node to plot",
+        "info": "",
+        "x": 200,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "d4f6bd3e.21ee1",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Radius 1",
+        "tooltip": "",
+        "group": "9e16ccc6.a044d",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 840,
+        "wires": [
+            [
+                "c13476a5.3bfe18",
+                "d7efca62.f86838"
+            ]
+        ]
+    },
+    {
+        "id": "858e8d27.85957",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Radius 2",
+        "tooltip": "",
+        "group": "9e16ccc6.a044d",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 880,
+        "wires": [
+            [
+                "bd30cd0c.20fa1",
+                "b0981b2b.645148"
+            ]
+        ]
+    },
+    {
+        "id": "64c7ec2f.ec3fc4",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Radius 3",
+        "tooltip": "",
+        "group": "9e16ccc6.a044d",
+        "order": 3,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 920,
+        "wires": [
+            [
+                "1c0df383.18dc0c",
+                "4cb7f941.733d38"
+            ]
+        ]
+    },
+    {
+        "id": "692fea34.78cdb4",
+        "type": "ui_text_input",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "label": "Radius 4",
+        "tooltip": "",
+        "group": "9e16ccc6.a044d",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 960,
+        "wires": [
+            [
+                "e1bb253b.41e038",
+                "effd87fe.843328"
+            ]
+        ]
+    },
+    {
+        "id": "1eea45c6.8c15ca",
+        "type": "join",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "3",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 2270,
+        "y": 400,
+        "wires": [
+            [
+                "220487c.3befb78"
+            ]
+        ]
+    },
+    {
+        "id": "220487c.3befb78",
+        "type": "ui_table",
+        "z": "5ec6e0ff.2497a",
+        "group": "e3693505.5042c8",
+        "name": "Offline",
+        "order": 1,
+        "width": "16",
+        "height": 3,
+        "columns": [],
+        "outputs": 1,
+        "cts": true,
+        "x": 2410,
+        "y": 400,
+        "wires": [
+            [
+                "2363b4f2.f5916c",
+                "ed3787dd.e9c048"
+            ]
+        ]
+    },
+    {
+        "id": "7b27342d.164b4c",
+        "type": "switch",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "property": "payload.online",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2150,
+        "y": 380,
+        "wires": [
+            [
+                "6870226.4024fdc"
+            ],
+            [
+                "1eea45c6.8c15ca"
+            ]
+        ]
+    },
+    {
+        "id": "2363b4f2.f5916c",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "Table Online",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2590,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "3c0efb3.f49c004",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "rad1",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1020,
+        "wires": [
+            [
+                "daebd605.9af6b8"
+            ]
+        ]
+    },
+    {
+        "id": "1d0ea82f.a8f368",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "rad2",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1060,
+        "wires": [
+            [
+                "daebd605.9af6b8"
+            ]
+        ]
+    },
+    {
+        "id": "926a9eda.fc9cf",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "rad3",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1100,
+        "wires": [
+            [
+                "daebd605.9af6b8"
+            ]
+        ]
+    },
+    {
+        "id": "50ccfe3b.26c55",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload",
+                "pt": "msg",
+                "to": "rad4",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 810,
+        "y": 1140,
+        "wires": [
+            [
+                "daebd605.9af6b8"
+            ]
+        ]
+    },
+    {
+        "id": "daebd605.9af6b8",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "Click away or redeploy - Create Map points",
+        "func": "msg.payload = flow.get(\"gateway\")\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 1020,
+        "wires": [
+            [
+                "da30b80d.1a5f08"
+            ]
+        ]
+    },
+    {
+        "id": "da30b80d.1a5f08",
+        "type": "split",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1390,
+        "y": 1020,
+        "wires": [
+            [
+                "8a1e8ccf.dad5e",
+                "1afa5990.a9a9e6",
+                "f756d9ac.5a6918",
+                "b30aa53.6a8f858"
+            ]
+        ]
+    },
+    {
+        "id": "a555d8aa.58c4f8",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "rad To Map",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 790,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "d7efca62.f86838",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "delete rad1",
+        "func": "rad =  flow.get(\"rad1\")\n\nlayer = \"gateway \" + rad + \"k\"\n\nmsg.payload = {\"command\":{\"clear\":layer}}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 840,
+        "wires": [
+            [
+                "a555d8aa.58c4f8",
+                "7d9efe43.75e4c"
+            ]
+        ]
+    },
+    {
+        "id": "c13476a5.3bfe18",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 1020,
+        "wires": [
+            [
+                "3c0efb3.f49c004"
+            ]
+        ]
+    },
+    {
+        "id": "bd30cd0c.20fa1",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 1060,
+        "wires": [
+            [
+                "1d0ea82f.a8f368"
+            ]
+        ]
+    },
+    {
+        "id": "1c0df383.18dc0c",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 1100,
+        "wires": [
+            [
+                "926a9eda.fc9cf"
+            ]
+        ]
+    },
+    {
+        "id": "e1bb253b.41e038",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 1140,
+        "wires": [
+            [
+                "50ccfe3b.26c55"
+            ]
+        ]
+    },
+    {
+        "id": "b0981b2b.645148",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "delete rad2",
+        "func": "rad =  flow.get(\"rad2\")\n\nlayer = \"gateway \" + rad + \"k\"\n\nmsg.payload = {\"command\":{\"clear\":layer}}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 880,
+        "wires": [
+            [
+                "7d9efe43.75e4c"
+            ]
+        ]
+    },
+    {
+        "id": "4cb7f941.733d38",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "delete rad3",
+        "func": "rad =  flow.get(\"rad3\")\n\nlayer = \"gateway \" + rad + \"k\"\n\nmsg.payload = {\"command\":{\"clear\":layer}}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 920,
+        "wires": [
+            [
+                "7d9efe43.75e4c"
+            ]
+        ]
+    },
+    {
+        "id": "effd87fe.843328",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "delete rad4",
+        "func": "rad =  flow.get(\"rad4\")\n\nlayer = \"gateway \" + rad + \"k\"\n\nmsg.payload = {\"command\":{\"clear\":layer}}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 960,
+        "wires": [
+            [
+                "7d9efe43.75e4c"
+            ]
+        ]
+    },
+    {
+        "id": "cd701c4e.3c485",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 400,
+        "wires": [
+            [
+                "e8af57ba.073698"
+            ]
+        ]
+    },
+    {
+        "id": "1f5d4be7.3e5614",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "Clear gateway",
+        "func": "\nmsg.payload = {\"command\":{\"clear\": \"gateway\"}}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 300,
+        "wires": [
+            [
+                "691ad4b.b1daa2c"
+            ]
+        ]
+    },
+    {
+        "id": "dddc282b.8df888",
+        "type": "link in",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "7d9efe43.75e4c",
+            "4a87724.8b12e8c",
+            "efc892cc.53998",
+            "691ad4b.b1daa2c"
+        ],
+        "x": 2555,
+        "y": 700,
+        "wires": [
+            [
+                "9a850e94.9ccc1"
+            ]
+        ]
+    },
+    {
+        "id": "7d9efe43.75e4c",
+        "type": "link out",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "dddc282b.8df888"
+        ],
+        "x": 715,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "4a87724.8b12e8c",
+        "type": "link out",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "dddc282b.8df888"
+        ],
+        "x": 1695,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "efc892cc.53998",
+        "type": "link out",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "dddc282b.8df888"
+        ],
+        "x": 1355,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "691ad4b.b1daa2c",
+        "type": "link out",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "dddc282b.8df888",
+            "c385eddd.afc7"
+        ],
+        "x": 755,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8fb826fe.399498",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "Raduis around gateway",
+        "info": "",
+        "x": 220,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "a39618fb.343888",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 230,
+        "y": 860,
+        "wires": [
+            [
+                "d4f6bd3e.21ee1",
+                "858e8d27.85957",
+                "64c7ec2f.ec3fc4",
+                "692fea34.78cdb4"
+            ]
+        ]
+    },
+    {
+        "id": "3f9e8f69.dba97",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 1520,
+        "wires": [
+            [
+                "e76d619b.f370f",
+                "447dd3e9.760e2c",
+                "326805d2.27832a"
+            ]
+        ]
+    },
+    {
+        "id": "8dd4f438.89beb8",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 1560,
+        "wires": [
+            [
+                "73f58cd3.05c114",
+                "447dd3e9.760e2c",
+                "326805d2.27832a"
+            ]
+        ]
+    },
+    {
+        "id": "62099f7b.c9b9b",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "delete node",
+        "func": "\nmsg.payload = {\"command\":{\"clear\":\"new node\"}}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1460,
+        "wires": [
+            [
+                "efc892cc.53998"
+            ]
+        ]
+    },
+    {
+        "id": "dcc08545.2eab78",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "delete rad1",
+        "func": "rad =  flow.get(\"nodeDist\")\n\nlayer = \"new node\" + rad\n\nmsg.payload = {\"command\":{\"clear\":layer}}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 1420,
+        "wires": [
+            [
+                "efc892cc.53998"
+            ]
+        ]
+    },
+    {
+        "id": "17150305.b35a5d",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "0.1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 1360,
+        "wires": [
+            [
+                "dfd9e479.9d3188",
+                "33ff1e4b.e1d242"
+            ]
+        ]
+    },
+    {
+        "id": "d52c0623.78a8a8",
+        "type": "ui_button",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "group": "f1408aea.5db028",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "delete",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 370,
+        "y": 1440,
+        "wires": [
+            [
+                "dcc08545.2eab78",
+                "62099f7b.c9b9b"
+            ]
+        ]
+    },
+    {
+        "id": "c385eddd.afc7",
+        "type": "link in",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "691ad4b.b1daa2c",
+            "bbf36e13.89c5a"
+        ],
+        "x": 415,
+        "y": 800,
+        "wires": [
+            [
+                "d7efca62.f86838",
+                "b0981b2b.645148",
+                "4cb7f941.733d38",
+                "effd87fe.843328"
+            ]
+        ]
+    },
+    {
+        "id": "bbf36e13.89c5a",
+        "type": "link out",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "c385eddd.afc7"
+        ],
+        "x": 535,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "b57a38c8.98f9c8",
+        "type": "link in",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "cc97f8e8.a4ce28"
+        ],
+        "x": 735,
+        "y": 960,
+        "wires": [
+            [
+                "308c7859.9c2d48"
+            ]
+        ]
+    },
+    {
+        "id": "308c7859.9c2d48",
+        "type": "delay",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 840,
+        "y": 960,
+        "wires": [
+            [
+                "daebd605.9af6b8"
+            ]
+        ]
+    },
+    {
+        "id": "cc97f8e8.a4ce28",
+        "type": "link out",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "b57a38c8.98f9c8",
+            "fdf0dc40.5a56f"
+        ],
+        "x": 1775,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "db10922.a760d7",
+        "type": "ui_button",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "group": "9e16ccc6.a044d",
+        "order": 5,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Clear Radius",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "num",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 390,
+        "y": 1200,
+        "wires": [
+            [
+                "bbf36e13.89c5a"
+            ]
+        ]
+    },
+    {
+        "id": "ed3787dd.e9c048",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "Zoom to gateway",
+        "func": "let id = msg.payload.name\nlet lat = msg.payload.latitude\nlet lon = msg.payload.longitude\nlet rxRate = msg.payload.rxRate\nlet txRate = msg.payload.txRate\nlet online = msg.payload.online\nlet eui = msg.payload.eui\n\nif (online == true) {\n    color = \"#0000ff\";\n}else{\n    color = \"#ff0000\";\n}\n\n\nmsg.payload = { \"name\":id, \"eui\":eui, \"latitude\":lat, \"longitude\":lon, \"rxRate\":rxRate, \"txRate\":txRate, \"online\":online, \"iconColor\":color, \"updatedAt\": msg.payload.updatedAt,  \"layer\": \"gateway\" }\n\n\n\n\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2610,
+        "y": 460,
+        "wires": [
+            [
+                "9a850e94.9ccc1",
+                "c964ed99.c4568"
+            ]
+        ]
+    },
+    {
+        "id": "4531865a.c320e8",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "Delete Parts",
+        "func": "msg.payload = msg.payload\ndelete msg.parts\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2010,
+        "y": 380,
+        "wires": [
+            [
+                "7b27342d.164b4c"
+            ]
+        ]
+    },
+    {
+        "id": "193f3364.1d555d",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "Rad",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1750,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "7702db6b.502c54",
+        "type": "ui_template",
+        "z": "5ec6e0ff.2497a",
+        "group": "714ea33c.60cedc",
+        "name": "SF",
+        "order": 1,
+        "width": "36",
+        "height": 14,
+        "format": "<iframe src=\"https://avbentem.github.io/airtime-calculator/ttn/eu868/1\" width=\"1890\" height=\"1100\" frameborder=\"1\"></iframe>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 210,
+        "y": 2000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7fb3f64d.2afb08",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "prepare to/from coords",
+        "func": "var from = {\n    lat: flow.get(\"newLat\"),\n    lon: flow.get(\"newLon\"),\n    elv: 0,\n}\n\nvar to = {\n    lat: msg.payload.latitude,\n    lon: msg.payload.longitude,\n    elv: 0,\n}\nmsg.gateway = msg.payload;\n\nmsg.payload = {\n    from: from,\n    to: to\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1780,
+        "wires": [
+            [
+                "e7d69ed.8d2f76"
+            ]
+        ]
+    },
+    {
+        "id": "e7d69ed.8d2f76",
+        "type": "function",
+        "z": "5ec6e0ff.2497a",
+        "name": "calculate distance between 2 coords",
+        "func": "//Credit: https://javascript.plainenglish.io/calculating-azimuth-distance-and-altitude-from-a-pair-of-gps-locations-36b4325d8ab0\n\nfunction ParseAngle(ang, limit) {\n    var angle = parseFloat(ang);\n    if (isNaN(angle) || (angle < -limit) || (angle > limit)) {\n        node.error(\"Invalid angle value.\", msg);\n        return null;\n    } else {\n        return angle;\n    }\n}\n\nfunction ParseElevation(el) {\n    var angle = parseFloat(el);\n    if (isNaN(angle)) {\n        node.error(\"Invalid elevation value.\", msg);\n        return null;\n    } else {\n        return angle;\n    }\n}\n\nfunction ParseLocation(pos) {\n    var lat = ParseAngle(pos.lat, 90.0);\n    var location = null;\n    if (lat != null) {\n        var lon = ParseAngle(pos.lon, 180.0);\n        if (lon != null) {\n            var elv = ParseElevation(pos.elv);\n            if (elv != null) {\n                location = { lat: lat, lon: lon, elv: elv };\n            }\n        }\n    }\n    return location;\n}\n\nfunction EarthRadiusInMeters(latitudeRadians) {\n    // latitudeRadians is geodetic, i.e. that reported by GPS.\n    // http://en.wikipedia.org/wiki/Earth_radius\n    var a = 6378137.0;  // equatorial radius in meters\n    var b = 6356752.3;  // polar radius in meters\n    var cos = Math.cos(latitudeRadians);\n    var sin = Math.sin(latitudeRadians);\n    var t1 = a * a * cos;\n    var t2 = b * b * sin;\n    var t3 = a * cos;\n    var t4 = b * sin;\n    return Math.sqrt((t1 * t1 + t2 * t2) / (t3 * t3 + t4 * t4));\n}\n\nfunction GeocentricLatitude(lat) {\n    // Convert geodetic latitude 'lat' to a geocentric latitude 'clat'.\n    // Geodetic latitude is the latitude as given by GPS.\n    // Geocentric latitude is the angle measured from center of Earth between a point and the equator.\n    // https://en.wikipedia.org/wiki/Latitude#Geocentric_latitude\n    var e2 = 0.00669437999014;\n    var clat = Math.atan((1.0 - e2) * Math.tan(lat));\n    return clat;\n}\n\nfunction LocationToPoint(c) {\n    // Convert (lat, lon, elv) to (x, y, z).\n    var lat = c.lat * Math.PI / 180.0;\n    var lon = c.lon * Math.PI / 180.0;\n    var radius = EarthRadiusInMeters(lat);\n    var clat = GeocentricLatitude(lat);\n\n    var cosLon = Math.cos(lon);\n    var sinLon = Math.sin(lon);\n    var cosLat = Math.cos(clat);\n    var sinLat = Math.sin(clat);\n    var x = radius * cosLon * cosLat;\n    var y = radius * sinLon * cosLat;\n    var z = radius * sinLat;\n\n    // We used geocentric latitude to calculate (x,y,z) on the Earth's ellipsoid.\n    // Now we use geodetic latitude to calculate normal vector from the surface, to correct for elevation.\n    var cosGlat = Math.cos(lat);\n    var sinGlat = Math.sin(lat);\n\n    var nx = cosGlat * cosLon;\n    var ny = cosGlat * sinLon;\n    var nz = sinGlat;\n\n    x += c.elv * nx;\n    y += c.elv * ny;\n    z += c.elv * nz;\n\n    return { x: x, y: y, z: z, radius: radius, nx: nx, ny: ny, nz: nz };\n}\n\nfunction Distance(ap, bp) {\n    var dx = ap.x - bp.x;\n    var dy = ap.y - bp.y;\n    var dz = ap.z - bp.z;\n    return Math.sqrt(dx * dx + dy * dy + dz * dz);\n}\n\nfunction RotateGlobe(b, a, bradius, aradius) {\n    // Get modified coordinates of 'b' by rotating the globe so that 'a' is at lat=0, lon=0.\n    var br = { lat: b.lat, lon: (b.lon - a.lon), elv: b.elv };\n    var brp = LocationToPoint(br);\n\n    // Rotate brp cartesian coordinates around the z-axis by a.lon degrees,\n    // then around the y-axis by a.lat degrees.\n    // Though we are decreasing by a.lat degrees, as seen above the y-axis,\n    // this is a positive (counterclockwise) rotation (if B's longitude is east of A's).\n    // However, from this point of view the x-axis is pointing left.\n    // So we will look the other way making the x-axis pointing right, the z-axis\n    // pointing up, and the rotation treated as negative.\n\n    var alat = GeocentricLatitude(-a.lat * Math.PI / 180.0);\n    var acos = Math.cos(alat);\n    var asin = Math.sin(alat);\n\n    var bx = (brp.x * acos) - (brp.z * asin);\n    var by = brp.y;\n    var bz = (brp.x * asin) + (brp.z * acos);\n\n    return { x: bx, y: by, z: bz, radius: bradius };\n}\n\nfunction NormalizeVectorDiff(b, a) {\n    // Calculate norm(b-a), where norm divides a vector by its length to produce a unit vector.\n    var dx = b.x - a.x;\n    var dy = b.y - a.y;\n    var dz = b.z - a.z;\n    var dist2 = dx * dx + dy * dy + dz * dz;\n    if (dist2 == 0) {\n        return null;\n    }\n    var dist = Math.sqrt(dist2);\n    return { x: (dx / dist), y: (dy / dist), z: (dz / dist), radius: 1.0 };\n}\n\nfunction Calculate(pos1, pos2) {\n   \n    var result = {\n        from: pos1,\n        to: pos2,\n    };\n\n    var a = ParseLocation(pos1);\n    if (a != null) {\n        var b = ParseLocation(pos2);\n        if (b != null) {\n            var ap = LocationToPoint(a);\n            var bp = LocationToPoint(b);\n            var distKm = 0.001 * Distance(ap, bp);\n            distKm = Math.round(distKm * 100)/100;\n            result.distanceKm = distKm;\n\n            // Let's use a trick to calculate azimuth:\n            // Rotate the globe so that point A looks like latitude 0, longitude 0.\n            // We keep the actual radii calculated based on the oblate geoid,\n            // but use angles based on subtraction.\n            // Point A will be at x=radius, y=0, z=0.\n            // Vector difference B-A will have dz = N/S component, dy = E/W component.\n            var br = RotateGlobe(b, a, bp.radius, ap.radius);\n            if (br.z * br.z + br.y * br.y > 1.0e-6) {\n                var theta = Math.atan2(br.z, br.y) * 180.0 / Math.PI;\n                var azimuth = 90.0 - theta;\n                if (azimuth < 0.0) {\n                    azimuth += 360.0;\n                }\n                if (azimuth > 360.0) {\n                    azimuth -= 360.0;\n                }\n                azimuth = Math.round(azimuth * 100)/100;\n                result.azimuth = azimuth;\n                \n            }\n\n            var bma = NormalizeVectorDiff(bp, ap);\n            if (bma != null) {\n                // Calculate altitude, which is the angle above the horizon of B as seen from A.\n                // Almost always, B will actually be below the horizon, so the altitude will be negative.\n                // The dot product of bma and norm = cos(zenith_angle), and zenith_angle = (90 deg) - altitude.\n                // So altitude = 90 - acos(dotprod).\n                var altitude = 90.0 - (180.0 / Math.PI) * Math.acos(bma.x * ap.nx + bma.y * ap.ny + bma.z * ap.nz);\n                result.altitude = altitude;\n            }\n        }\n    }\n    return result;\n}\nmsg.payload = Calculate(msg.payload.from, msg.payload.to);\n//msg.payload.cal.distKm = Calculate(flow.get(\"distKm\"));\n//msg.payload.cal.azimuth = Calculate(flow.get(\"azimuth\"));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 1800,
+        "wires": [
+            [
+                "75e9052f.600e0c",
+                "a3bc59a3.3758e8"
+            ]
+        ]
+    },
+    {
+        "id": "f7b7561a.ab36d8",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "Node to gateways",
+        "info": "",
+        "x": 230,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "f8b03bf7.c82f28",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2170,
+        "y": 220,
+        "wires": [
+            [
+                "15bf4f1f.129d01"
+            ]
+        ]
+    },
+    {
+        "id": "609bfe90.71564",
+        "type": "link in",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "aaa7b07.467615"
+        ],
+        "x": 2515,
+        "y": 520,
+        "wires": [
+            [
+                "ed3787dd.e9c048"
+            ]
+        ]
+    },
+    {
+        "id": "aaa7b07.467615",
+        "type": "link out",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "609bfe90.71564"
+        ],
+        "x": 1775,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "75e9052f.600e0c",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "Node to gatways",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "7ca955b3.9fcc2c",
+        "type": "split",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 410,
+        "y": 1780,
+        "wires": [
+            [
+                "7fb3f64d.2afb08"
+            ]
+        ]
+    },
+    {
+        "id": "92963a07.578958",
+        "type": "join",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "3",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1390,
+        "y": 1800,
+        "wires": [
+            [
+                "bf38a1a2.a12e9",
+                "5aacb4bc.8a065c"
+            ]
+        ]
+    },
+    {
+        "id": "bf38a1a2.a12e9",
+        "type": "ui_table",
+        "z": "5ec6e0ff.2497a",
+        "group": "8c12a2a7.c7948",
+        "name": "Distance Node to Gateways",
+        "order": 1,
+        "width": "16",
+        "height": 3,
+        "columns": [
+            {
+                "field": "name",
+                "title": "name",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "eui",
+                "title": "eui",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "distanceKm",
+                "title": "daistance Km",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "azimuth",
+                "title": "azimuth",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "latitude",
+                "title": "latitude",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "longitude",
+                "title": "longitude",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "rxRate",
+                "title": "rxRate",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "txRate",
+                "title": "txRate",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "online",
+                "title": "online",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "updatedAt",
+                "title": "updatedAt",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 1,
+        "cts": true,
+        "x": 1600,
+        "y": 1800,
+        "wires": [
+            [
+                "aaa7b07.467615",
+                "c3737152.d70f6"
+            ]
+        ]
+    },
+    {
+        "id": "326805d2.27832a",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "gateway",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 1780,
+        "wires": [
+            [
+                "7ca955b3.9fcc2c"
+            ]
+        ]
+    },
+    {
+        "id": "5aacb4bc.8a065c",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "Node to gatways Table",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1280,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "a3bc59a3.3758e8",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.name",
+                "pt": "msg",
+                "to": "gateway.name",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.eui",
+                "pt": "msg",
+                "to": "gateway.eui",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.latitude",
+                "pt": "msg",
+                "to": "gateway.latitude",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.longitude",
+                "pt": "msg",
+                "to": "gateway.longitude",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.rxRate",
+                "pt": "msg",
+                "to": "gateway.rxRate",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.txRate",
+                "pt": "msg",
+                "to": "gateway.txRate",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.online",
+                "pt": "msg",
+                "to": "gateway.online",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.updatedAt",
+                "pt": "msg",
+                "to": "gateway.updatedAt",
+                "tot": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "gateway",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.from",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.to",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1200,
+        "y": 1800,
+        "wires": [
+            [
+                "92963a07.578958"
+            ]
+        ]
+    },
+    {
+        "id": "c3737152.d70f6",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "Node to gatways Table 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1910,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "c964ed99.c4568",
+        "type": "debug",
+        "z": "5ec6e0ff.2497a",
+        "name": "Node to gatways Table 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 2870,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "79d19926.46dca8",
+        "type": "ui_template",
+        "z": "5ec6e0ff.2497a",
+        "group": "714ea33c.60cedc",
+        "name": "status.thethings.network",
+        "order": 2,
+        "width": "36",
+        "height": 14,
+        "format": "<iframe src=\"https://status.thethings.network/\" width=\"1890\" height=\"1100\" frameborder=\"1\"></iframe>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 270,
+        "y": 2100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c191819.54e238",
+        "type": "inject",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "props": [
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "10",
+        "topic": "",
+        "x": 230,
+        "y": 1480,
+        "wires": [
+            [
+                "33ff1e4b.e1d242"
+            ]
+        ]
+    },
+    {
+        "id": "60e3b075.8eba4",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "https://avbentem.github.io/airtime-calculator/ttn/eu868/10",
+        "info": "",
+        "x": 370,
+        "y": 1940,
+        "wires": []
+    },
+    {
+        "id": "f2cbf581.cf8f28",
+        "type": "comment",
+        "z": "5ec6e0ff.2497a",
+        "name": "The Things Network Status Page",
+        "info": "",
+        "x": 290,
+        "y": 2060,
+        "wires": []
+    },
+    {
+        "id": "fdf0dc40.5a56f",
+        "type": "link in",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "links": [
+            "cc97f8e8.a4ce28"
+        ],
+        "x": 195,
+        "y": 1620,
+        "wires": [
+            [
+                "eceb6374.de90e"
+            ]
+        ]
+    },
+    {
+        "id": "eceb6374.de90e",
+        "type": "change",
+        "z": "5ec6e0ff.2497a",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "newLon",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1620,
+        "wires": [
+            [
+                "8dd4f438.89beb8"
+            ]
+        ]
+    }
+]
