@@ -59,7 +59,7 @@ Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mari
 
 ***
 <a id="ancora4"></a>
-## Para finalizar, um BRINDE para quem leu o artigo até o final:
+## Para finalizar um BRINDE para quem leu o artigo até o final:
 
 1. Que tal fuçar no mundo _Docker-Conteiner_ em três curtos parágrafos? É sério! Você não se arrependerá!:muscle: Primeiro acesse o link: [Play with Docker](https://labs.play-with-docker.com/) (PWD). Você precisa se cadastrar: fazer um LOGIN (e-mail e criar uma senha). Depois START.
 2. Clique em + ADD NEW INSTANCE. Agora a parte mais difícil, não tenha medo!:scream: Na linha de comando digite:  `docker container run -d -p 1880:1880 gpstesouro/ttn_gateways_rs` \<enter\>. Espere até a tela preta parar de "pipocar", seu _container_ está sendo recheado de "gostosuras".
