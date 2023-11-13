@@ -65,4 +65,4 @@ Agora sim ... eis o novo código [gw-management-v1.json](https://github.com/Mari
 2. Clique em + ADD NEW INSTANCE. Agora a parte mais difícil, não tenha medo!:scream: Na linha de comando digite:  `docker container run -d -p 1880:1880 gpstesouro/ttn_gateways_rs` \<enter\>. Espere até a tela preta parar de "pipocar", seu _container_ está sendo recheado de "gostosuras".
 3. Quase lá! Clique em __1880__ (ou acione OPEN PORT e digite __1880__ \<OK\>). Uma nova janela se apresentará. Simplesmente, feche algumas janelas _popup_ de aviso e voilá!:pray: Finja que não vê o Node-RED e só chame o dashboard (coloque __ui__ após a primeira barra solitária da URL: `http://ip...play-with-docker.com/ui` \<enter\>) e divirta-se... __GET__
 
-Eu não disse ... __facinho!__ :smirk: Você acabou de utilizar o recurso _Docker_ através do site PWD, criou um _container_ - rodando um aplicativo Node-RED - que se autodestruirá após 4 horas. Parabéns!
+Eu não disse ... __facinho!__ :smirk: Você acabou de utilizar o recurso _Docker_ através do site PWD, criou um _container_ - rodando um aplicativo Node-RED - que se autodestruirá após 4 horas. PARABÉNS!
